@@ -22,8 +22,10 @@ set softtabstop=4
 set ts=4
 set expandtab
 
-" Colorstepper
+" ColorStepper
 source ~/.vim/bundle/colorstepper/colorstepper.vim
-nmap <F6> :call Step_color_back()<CR> <Bar> :echo g:stepcolors[g:color_step]<CR>
-nmap <F7> :call Step_color()<CR> <Bar> :echo g:stepcolors[g:color_step]<CR>
-nmap <S-F7> :call Load_colors()<CR> <Bar> :echo g:stepcolors[g:color_step]<CR>
+
+" ColorStepper Keys
+nmap <F7> <Plug>ColorStepBack
+nmap <F8> <Plug>ColorStepNext
+nmap <S-F8> <Plug>ColorStepReload
