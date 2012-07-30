@@ -22,6 +22,12 @@ set softtabstop=4
 set ts=4
 set expandtab
 
+" Invisibles
+set listchars=tab:▸\ ,eol:¬
+
+" Invisibles Toggle
+noremap <leader>l :set list!<CR>
+
 " Save File
 nmap <F2> :w<CR>
 
