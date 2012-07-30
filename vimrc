@@ -22,6 +22,9 @@ set softtabstop=4
 set ts=4
 set expandtab
 
+" Save File
+nmap <F2> :w<CR>
+
 " ColorStepper
 source ~/.vim/bundle/colorstepper/colorstepper.vim
 
