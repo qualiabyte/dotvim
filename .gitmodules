@@ -7,3 +7,6 @@
 [submodule "bundle/colorstepper"]
 	path = bundle/colorstepper
 	url = git://github.com/qualiabyte/vim-colorstepper.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
