@@ -29,3 +29,6 @@ source ~/.vim/bundle/colorstepper/colorstepper.vim
 nmap <F7> <Plug>ColorStepBack
 nmap <F8> <Plug>ColorStepNext
 nmap <S-F8> <Plug>ColorStepReload
+
+" NerdTree
+nmap <F11> :NERDTreeToggle<CR>
