@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/pathogen"]
 	path = .vim/bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/colorstepper"]
+	path = bundle/colorstepper
+	url = git://github.com/qualiabyte/vim-colorstepper.git
