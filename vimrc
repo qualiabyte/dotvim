@@ -41,3 +41,8 @@ nmap <S-F8> <Plug>ColorStepReload
 
 " NerdTree
 nmap <F11> :NERDTreeToggle<CR>
+
+" Tagbar
+nmap <F12> :TagbarToggle<CR>
+let g:tagbar_singleclick = 1
+let g:tagbar_width = 25
