@@ -20,9 +20,9 @@ imap <Esc> <Esc><Right>
 
 " Fn-keys: Save File, ColorStepper, NerdTree, Tagbar
 nmap <F2> :w<CR>
-nmap <F6> <Plug>ColorStepBack
-nmap <F7> <Plug>ColorStepNext
-nmap <S-F7> <Plug>ColorStepReload
+nmap <F7> <Plug>ColorstepPrev
+nmap <F8> <Plug>ColorstepNext
+nmap <S-F8> <Plug>ColorstepReload
 nmap <F11> :NERDTreeToggle<CR>
 nmap <F12> :TagbarToggle<CR>
 
