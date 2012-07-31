@@ -13,9 +13,6 @@ set listchars=tab:▸\ ,eol:¬                 " Invisibles
 set noswapfile                              " Swapfiles
 set nobackup                                " Backups
 
-" ColorStepper
-source ~/.vim/bundle/colorstepper/colorstepper.vim
-
 " Command shortcut, Toggle invisibles, Keep place
 nmap ; :
 nmap <leader>l :set list!<CR>
