@@ -1,8 +1,7 @@
 
 " Pathogen Plugin Manager
-source ~/.vim/bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
 filetype plugin indent on
+call pathogen#infect()
 
 " Mouse
 set mouse=a
