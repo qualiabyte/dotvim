@@ -28,6 +28,10 @@ set listchars=tab:▸\ ,eol:¬
 " Invisibles Toggle
 noremap <leader>l :set list!<CR>
 
+" Backup Files
+set noswapfile
+set nobackup
+
 " Save File
 nmap <F2> :w<CR>
 
