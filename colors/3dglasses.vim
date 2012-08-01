@@ -1,0 +1,1 @@
+../bundle/colorschemes/colors/3dglasses.vim
