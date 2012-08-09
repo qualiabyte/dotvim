@@ -6,8 +6,8 @@ syntax enable                               " Syntax
 set mouse=a                                 " Mouse
 set number                                  " Line Numbers
 set ignorecase smartcase                    " Search
-set softtabstop=4                           " Soft-tabs
-set ts=4                                    " Tabstop
+set softtabstop=2                           " Soft-tabs
+set ts=2                                    " Tabstop
 set expandtab                               " Expand tabs
 set listchars=tab:▸\ ,eol:¬                 " Invisibles
 set noswapfile                              " Swapfiles
@@ -25,6 +25,17 @@ nmap <F8> <Plug>ColorstepNext
 nmap <S-F8> <Plug>ColorstepReload
 nmap <F11> :NERDTreeToggle<CR>
 nmap <F12> :TagbarToggle<CR>
+
+" Alt+Dir: Tab Switching
+set timeout timeoutlen=500 ttimeoutlen=500
+map <silent><A-Right> :tabnext<CR>
+map <silent><A-Left> :tabprev<CR>
+
+" Ctl+Dir: Window Switching
+map <C-Up>    <C-w><Up>
+map <C-Down>  <C-w><Down>
+map <C-Left>  <C-w><Left>
+map <C-Right> <C-w><Right>
 
 " Tagbar
 let g:tagbar_singleclick = 1
