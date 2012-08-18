@@ -1,0 +1,1 @@
+../bundle/colorschemes/colors/pf_earth.vim
