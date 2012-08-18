@@ -32,10 +32,10 @@ map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprev<CR>
 
 " Ctl+Dir: Window Switching
-map <C-Up>    <C-w><Up>
-map <C-Down>  <C-w><Down>
-map <C-Left>  <C-w><Left>
-map <C-Right> <C-w><Right>
+nmap <C-Up>    <C-w><Up>
+nmap <C-Down>  <C-w><Down>
+nmap <C-Left>  <C-w><Left>
+nmap <C-Right> <C-w><Right>
 
 " Tagbar
 let g:tagbar_singleclick = 1
