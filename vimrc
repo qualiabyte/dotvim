@@ -6,6 +6,7 @@ syntax enable                               " Syntax
 set mouse=a                                 " Mouse
 set number                                  " Line Numbers
 set ignorecase smartcase                    " Search
+set shiftwidth=2                            " Shift-width
 set softtabstop=2                           " Soft-tabs
 set ts=2                                    " Tabstop
 set expandtab                               " Expand tabs
