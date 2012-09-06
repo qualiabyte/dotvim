@@ -17,7 +17,6 @@ set nobackup                                " Backups
 " Command shortcut, Toggle invisibles, Keep place
 nmap ; :
 nmap <leader>l :set list!<CR>
-imap <Esc> <Esc><Right>
 
 " Fn-keys: Save File, ColorStepper, NerdTree, Tagbar
 nmap <F2> :w<CR>
