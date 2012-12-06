@@ -25,3 +25,6 @@
 [submodule "bundle/jade"]
 	path = bundle/jade
 	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/delimit-mate"]
+	path = bundle/delimit-mate
+	url = git://github.com/Raimondi/delimitMate.git
