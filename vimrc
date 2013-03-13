@@ -47,3 +47,6 @@ let g:sparkup = 'sparkup'
 let g:sparkupArgs = '--no-last-newline'
 let g:sparkupExecuteMapping = '<C-e>'
 let g:sparkupNextMapping = '<C-n>'
+
+" Markdown languages
+let g:markdown_fenced_languages = [ 'coffee', 'javascript', 'sh' ]
