@@ -41,3 +41,9 @@ nmap <C-Right> <C-w><Right>
 " Tagbar
 let g:tagbar_singleclick = 1
 let g:tagbar_width = 25
+
+" Sparkup
+let g:sparkup = 'sparkup'
+let g:sparkupArgs = '--no-last-newline'
+let g:sparkupExecuteMapping = '<C-e>'
+let g:sparkupNextMapping = '<C-n>'
