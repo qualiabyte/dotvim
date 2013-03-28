@@ -6,6 +6,8 @@ syntax enable                               " Syntax
 set mouse=a                                 " Mouse
 set number                                  " Line Numbers
 set ignorecase smartcase                    " Search
+set hlsearch                                " Highlight
+set textwidth=80                            " Text width
 set shiftwidth=2                            " Shift-width
 set softtabstop=2                           " Soft-tabs
 set ts=2                                    " Tabstop
