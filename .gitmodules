@@ -40,3 +40,6 @@
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = git://github.com/tpope/vim-abolish.git
+[submodule "bundle/lusty"]
+	path = bundle/lusty
+	url = git://github.com/sjbach/lusty.git
