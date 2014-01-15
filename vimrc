@@ -16,9 +16,10 @@ set listchars=tab:▸\ ,eol:¬                 " Invisibles
 set noswapfile                              " Swapfiles
 set nobackup                                " Backups
 
-" Command shortcut, Toggle invisibles, Omnicomplete
+" Command shortcut, Toggle invisibles, Wrap text, Omnicomplete
 nmap ; :
 nmap <leader>l :set list!<CR>
+nmap <leader>w :set wrap!<CR>
 imap <S-Tab> <C-x><C-o>
 
 " Fn-keys: Save File, ColorStepper, NerdTree, Tagbar
