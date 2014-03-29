@@ -13,6 +13,7 @@ set softtabstop=2                           " Soft-tabs
 set ts=2                                    " Tabstop
 set expandtab                               " Expand tabs
 set listchars=tab:▸\ ,eol:¬                 " Invisibles
+set hidden                                  " Hidden Buffers
 set noswapfile                              " Swapfiles
 set nobackup                                " Backups
 
