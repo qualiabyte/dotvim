@@ -42,6 +42,20 @@ nmap <C-Down>  <C-w><Down>
 nmap <C-Left>  <C-w><Left>
 nmap <C-Right> <C-w><Right>
 
+" Select All
+nmap <C-a> ggVG
+
+" Cut, Copy and Paste
+vmap <C-x> "+x
+vmap <C-c> "+y
+map  <C-Space> "+gP
+map  <S-Insert> "+gP
+imap <C-Space> <Esc>"+gp
+imap <S-Insert> <Esc>"+gp
+
+" Format Paragraph
+nmap Q gwap
+
 " Tagbar
 let g:tagbar_singleclick = 1
 let g:tagbar_width = 25
