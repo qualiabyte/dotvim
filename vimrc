@@ -28,7 +28,8 @@ nmap <F2> :w<CR>
 nmap <F7> <Plug>ColorstepPrev
 nmap <F8> <Plug>ColorstepNext
 nmap <S-F8> <Plug>ColorstepReload
-nmap <F11> :NERDTreeToggle<CR>
+nmap <F11> :NERDTreeTabsToggle<CR>
+nmap <S-F11> :NERDTreeToggle<CR>
 nmap <F12> :TagbarToggle<CR>
 
 " Alt+Dir: Tab Switching
