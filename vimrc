@@ -69,3 +69,7 @@ let g:sparkupNextMapping = '<C-n>'
 
 " Markdown languages
 let g:markdown_fenced_languages = [ 'coffee', 'javascript', 'sh' ]
+
+" Filetypes
+autocmd BufRead,BufNewFile *.lll set filetype=lisp
+autocmd BufRead,BufNewFile *.se set filetype=python
