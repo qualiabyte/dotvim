@@ -1,7 +1,7 @@
 
 call pathogen#infect()                      " Pathogen Plugin Manager
 filetype plugin indent on                   " Filetype
-colorscheme github                          " Colorscheme
+colorscheme zenburn                         " Colorscheme
 syntax enable                               " Syntax
 set mouse=a                                 " Mouse
 set number                                  " Line Numbers
