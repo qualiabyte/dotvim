@@ -19,8 +19,8 @@ set nobackup                                " Backups
 
 " Command shortcut, Toggle invisibles, Wrap text, Omnicomplete
 nmap ; :
-nmap <leader>l :set list!<CR>
-nmap <leader>w :set wrap!<CR>
+nmap <leader><leader>l :set list!<CR>
+nmap <leader><leader>w :set wrap!<CR>
 imap <S-Tab> <C-x><C-o>
 
 " Fn-keys: Save File, ColorStepper, NerdTree, Tagbar
@@ -66,6 +66,28 @@ let g:sparkup = 'sparkup'
 let g:sparkupArgs = '--no-last-newline'
 let g:sparkupExecuteMapping = '<C-e>'
 let g:sparkupNextMapping = '<C-n>'
+
+" EasyMotion
+map <leader> <Plug>(easymotion-prefix)
+
+" EasyMotion 2 Character Search
+nmap s <Plug>(easymotion-s2)
+nmap t <Plug>(easymotion-t2)
+
+" EasyMotion N Character Search
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+
+" EasyMotion Within-Line Search
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
+
+" EasyMotion Column Search
+let g:EasyMotion_startofline = 0
 
 " Markdown languages
 let g:markdown_fenced_languages = [ 'coffee', 'javascript', 'sh' ]
