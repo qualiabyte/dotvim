@@ -57,6 +57,10 @@ imap <S-Insert> <Esc>"+gp
 " Format Paragraph
 nmap Q gwap
 
+" Record Macro
+nnoremap @ q
+nnoremap q @
+
 " Tagbar
 let g:tagbar_singleclick = 1
 let g:tagbar_width = 25
